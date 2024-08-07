@@ -1,5 +1,4 @@
 import express from 'express';
-// import { dbConnection } from './Database/dbConnection.js';
 import dbConnection from './Database/dbConnection.js'
 import dotenv from 'dotenv';
 import messageRouter from './router/messageRouter.js';
