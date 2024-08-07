@@ -1,5 +1,8 @@
 import express from 'express';
-import { dbConnection } from './Database/dbconnection.js';
+// import { dbConnection } from './Database/dbConnection.js';
+
+const dbConnection = require ('./Database/dbConnection.js');
+
 import dotenv from 'dotenv';
 import messageRouter from './router/messageRouter.js';
 import cors from 'cors' ;
