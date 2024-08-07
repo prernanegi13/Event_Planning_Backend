@@ -9,3 +9,5 @@ export const dbConnection=()=>{
         console.log("connection not created to database",err);
     });
 };
+
+export default dbConnection
